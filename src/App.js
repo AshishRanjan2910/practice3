@@ -1,14 +1,11 @@
 import './App.css';
-import SignUp from './Components/SignUp/SignUp';
+import SayYear from './Components/SayYear/SayYear';
 
 function App() {
   return (
     <div>
-      <section id="goal-form">
-        <h1>Sign up</h1>
-        <SignUp />
-      </section>
-      </div>
+      <SayYear/>
+    </div>
   );
 }
 
