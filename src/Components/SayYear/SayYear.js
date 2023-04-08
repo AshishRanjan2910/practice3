@@ -1,11 +1,20 @@
 import React, { Component } from "react";
-import "./SayYear.css"
+import './SayYear.css'
+import SayYearForm from './SayYearForm'
+
 
 class SayYear extends Component {
   render () {
-    return(
-      <div>Hello from SayYear</div>
-    )
+
+  const expenseSubmitHandler = (date) => {
+    return;
+  }
+
+  return (
+    <div className="date-form">
+      <SayYearForm onDateSubmit={expenseSubmitHandler}/>
+    </div>
+  )
   }
 }
 
